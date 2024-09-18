@@ -1,0 +1,57 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#task-list li.completed {
+    text-decoration: line-through;
+    background: #d4edda;
+}
+
+/* Notification */
+#notification-container {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Delete Button */
+.delete-task {
+    cursor: pointer;
+}
+
+/* Edit Button */
+.edit-task {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+}
+
+.edit-task:hover {
+    background-color: #e0a800;
+    color: #d4edda;
+}
+
+/* Notification */
+#notification-container {
+    position: fixed;
+    /* ثابت في مكانه */
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+
+.alert {
+    margin: 0 auto;
+    /* في النص */
+    text-align: center;
+    width: 100%;
+}
